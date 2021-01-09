@@ -2131,24 +2131,24 @@ blockquote {
 
 @media (max-width: 1999px) {
   .video-culto-online {
-    height: 529px;
+    height: 549px;
   }
 }
 
 @media (max-width: 992px) {
   .video-culto-online {
-    height: 405px;
+    height: 425px;
   }
 }
 
 @media (max-width: 768px) {
   .video-culto-online {
-    height: 54.25vw;
+    height: 57.25vw;
   }
 }
 
 @media (min-width: 1200px) {
   .video-culto-online {
-    height: 641px;
+    height: 660px;
   }
 }
