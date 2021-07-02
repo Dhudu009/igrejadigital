@@ -790,6 +790,37 @@ a:hover {
   color: #afbac4;
 }
 
+.about-image {
+  background-image: url(../images/about/about-business-man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1900px) {
+  .about-image {
+    height: 585px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-image {
+    height: 636px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-image {
+    height: 57.25vw;
+  }
+}
+
+@media (min-width: 1900px) {
+  .about-image {
+    height: 486px;
+  }
+}
+
 /*=================================================================
   About us 2 section
 ==================================================================*/
