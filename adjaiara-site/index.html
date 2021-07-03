@@ -26,9 +26,10 @@
 	<!-- Fontawesome Icon font -->
 	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
 	<!-- bootstrap.min css -->
-	<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
-	<!-- Animate.css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="plugins/animate-css/animate.css">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<!-- Magnific popup css -->
 	<link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
 	<!-- Slick Carousel -->
@@ -83,113 +84,94 @@ Welcome Slider
  <!-- 
   Fixed Navigation
   ==================================== -->
-    <header id="navigation" class="navbar navigation">
-        <div class="container">
-            <div class="navbar-header">
-              <!-- responsive nav button -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- /responsive nav button -->
-    
-                <!-- logo -->
-                <a class="navbar-brand logo" href="#body">
-                    <img src="images/adjaiara-logo.jpeg" alt="AD Jaiara" />
-				</a>
+<section>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation" id="navigation">
+		<a class="navbar-header logo-title" href="#">
+			<img src="images/adjaiara-logo.jpeg" width="40" height="40" class="d-inline-block align-top" alt="">
+			<span>AD <b>JAIARA</b></span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Alterna navegação">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
 
-				<span class="navbar-brand logo-title">AD <b>JAIARA</b></span>
-				<!-- /logo -->
-
-        </div>
-
-        <!-- main nav -->
-        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
-            <ul id="nav" class="nav navbar-nav navigation-menu">
-                <li><a data-scroll href="#body">Início</a></li>
-                <li><a data-scroll href="#igreja">A Igreja</a></li>
-                <li><a data-scroll href="#ofertas">Ofertas</a></li>
-                <li><a data-scroll href="#contato">Contato</a></li>
-                <li><a data-scroll href="#mapa">Localização</a></li>
-            </ul>
-        </nav>
-        <!-- /main nav -->
-  
-      </div>
-  </header>
-  <!--
-  End Fixed Navigation
-  ==================================== -->
-
-  
-
+		<div class="collapse navbar-collapse " id="navbarNavDropdown">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#body">Inicio<span class="sr-only"></span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#igreja">A igreja</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#ofertas">Ofertas</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contato">Contato</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#mapa">Localização</a>
+			  </li>
+			
+		  </ul>
+		</div>
+	  </nav>
+  </section>
 <!--
-Start Call To Action
+End Fixed Navigation
 ==================================== -->
-<section id="intro" class="call-to-action section-sm bg-1 overly">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Participe</h2>
-				<!-- <p>Crente ipsum gloria aleluia amen, fala Deus, e verdade Jesus!</p> -->
-			</div>
 
-			<div class="clearfix">
-				<!-- single blog post -->
-				<article class="col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-					<div class="post-block">
-						<div class="media-wrapper">
-							<img src="images/banner/culto-online.jpg" alt="amazing caves coverimage" class="img-responsive">
-						</div>
-						<div class="content">
-							<h1><a href="">Culto Online</a></h1>
-							<p></p>
-							<a class="btn btn-transparent" href="culto-online.html">Assistir</a>
-						</div>
-					</div>						
-				</article>
-				<!-- /single blog post -->
-				
-				<!-- single blog post -->
-				<!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-					<div class="post-block">
-						<div id="gallery-post" class="media-wrapper">
-							<div class="item">
-								<img src="images/banner/culto-presencial.jpg" alt="blog post" class="img-responsive">
-							</div>
-						</div>
-						
-						<div class="content">
-							<h1><a href="">Culto Presencial</a></h1>
-							<p></p>
-							<a class="btn btn-transparent" href="culto-presencial.html">Inscrever-se</a>
-						</div>
-					</div>						
-				</article> -->
-				<!-- end single blog post -->
-				
-				<!-- single blog post -->
-				<article class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-					<div class="post-block">
-						<div class="media-wrapper">
-							<img src="images/banner/cultos-anteriores.jpg" alt="amazing caves coverimage" class="img-responsive">
-						</div>
-						
-						<div class="content">
-							<h1><a href="">Cultos Anteriores</a></h1>
-							<p></p>
-							<a class="btn btn-transparent" href="https://www.youtube.com/channel/UCb6GR-irIyMpSfsdrhPC7CQ" target="_blank">Acessar o Canal</a>
-						</div>
-					</div>						
-				</article>
-				<!-- end single blog post -->
-			</div>
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
+  
+  <section class="hero-area section call-to-action bg-1 overly" id="intro" >
+	  <div class="container">
+		<div class="row row-cols-1 row-cols-md-2 p-1">
+		
+				<div class="col-12 text-center">
+					<h2>Participe</h2>
+				</div>
+				<div class="col wow fadeInUp p-5">
+				<div class="card border-0" data-wow-duration="500ms" data-wow-delay="400ms">
+					<img src="images/banner/culto-online.jpg" class="card-img-top" alt="...">
+					<div class="card-body bg-dark">
+					<h1 class="card-title text-white fs-1">Culto Online</h1>
+					<a href="culto-online.html" class="btn btn-outline-light">Assistir</a>
+					</div>
+				</div>
+				</div>
+				<div class="col wow fadeInUp p-5">
+					<div class="card border-0" data-wow-duration="500ms" data-wow-delay="400ms">
+					<img src="images/banner/cultos-anteriores.jpg" class="card-img-top" alt="...">
+					<div class="card-body bg-dark">
+						<h1 class="card-title text-white fs-1">Culto Anteriores</h1>
+						<a href="https://www.youtube.com/channel/UCb6GR-irIyMpSfsdrhPC7CQ" class="btn btn-outline-light">Assistir</a>
+					</div>
+					</div>
+				</div>
+			
+		  </div>
+	  </div>
+</section>
 
+				  <!-- end single blog post -->
+				  <!-- single blog post -->
+				  <!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+					  <div class="post-block">
+						  <div id="gallery-post" class="media-wrapper">
+							  <div class="item">
+								  <img src="images/banner/culto-presencial.jpg" alt="blog post" class="img-fluid">
+							  </div>
+						  </div>
+						  
+						  <div class="content">
+							  <h1><a href="">Culto Presencial</a></h1>
+							  <p></p>
+							  <a class="btn btn-transparent" href="culto-presencial.html">Inscrever-se</a>
+						  </div>
+					  </div>						
+				  </article> -->
+				  <!-- end single blog post -->
+				  
+				  <!-- single blog post -->
+			  
 <!--
 		Start About Section
 		==================================== -->
@@ -198,7 +180,7 @@ Start Call To Action
 				<div class="row">
 				
 					<!-- section title -->
-					<div class="title text-center wow fadeIn title-igreja" data-wow-duration="1500ms" >
+					<div class="col-xs-12 text-center title wow fadeIn title-igreja" data-wow-duration="1500ms" >
 						<h2>Sobre <span class="color">A Igreja</span> </h2>
 						<div class="border"></div>
 					</div>
@@ -212,7 +194,7 @@ Start Call To Action
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 padding-0 about-image">
-				<!-- <img class="img-responsive" src="images/about/about-business-man.jpg" alt=""> -->
+				<!-- <img class="img-fluid" src="images/about/about-business-man.jpg" alt=""> -->
 			</div>
 			<div class="col-md-6">
 				<div class="content-block">
@@ -261,50 +243,66 @@ Start Call To Action
 <!--
 Start Call To Action
 ==================================== -->
+
 <section id="ofertas" class="call-to-action section-sm bg-1 overly">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-					
-			<!-- section title -->
-		    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-	        	<h2>Dízimos e <span class="color"> Ofertas</span></h2>
-		        <div class="border"></div>
-		    </div>
-			<!-- /section title -->
+			<div class="col-xs-12 text-center title wow fadeIn title-igreja" data-wow-duration="1500ms" >
+				<h2>Dízimos E<span class="color"> Ofertas</span> </h2>
+				<div class="border"></div>
+			</div>
+				<div class="col-xs-12 text-center">	
+				<h2>Permaneça fiel nos dízimos e ofertas!<br/>
+					Eles podem ser feitos por PIX, transferência ou depósito:</h2>
+					<h2>CNPJ: 02.341.030/0001-97</h2><br/><br/>
+			</div>
+		</div>
+		<div class="row d-flex">
 
-			<div class="col-md-12 text-center">
-				<h2>Permaneça fiel nos dízimos e ofertas!<br/>Eles podem ser feitos por PIX, transferência ou depósito:</h2>
-				<div class="mb-30">
-					<h2>CNPJ: 02.341.030/0001-97</h2>
-				</div>
-				<!-- <a href="#" class="btn btn-main">Start a project with us</a> -->
-
-				<div class="col-sm-4 col-xs-12 text-center wow fadeInUp">
-					<div class="media-wrapper">
-						<img src="images/bancos/caixa.png" alt="amazing caves coverimage" class="img-responsive">
+			<!-- single blog post -->
+			<div class="col-xs-12 col-sm-6 col-md-4 order-sm-0 order-md-0 wow fadeInUp align-content-top text-center" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="post">
+					<div class="figure p-5">
+						<img src="images/bancos/caixa1.png" alt="AD JAIARA" class="img-fluid h-50 w-50">
 					</div>
-					<h2>C/C 537-2<br/>
-					Código 003<br/>
-					Ag.3257</h2>
-				</div>
-				<div class="col-sm-4 col-xs-12 text-center wow fadeInUp">
-					<div class="media-wrapper">
-						<img src="images/bancos/bb.jpg" alt="amazing caves coverimage" class="img-responsive">
+				</div>						
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 order-sm-2 order-md-0 wow fadeInUp align-content-top text-center" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="post">
+					<div class="figure p-5">
+						<img src="images/bancos/bb1.png" alt="AD JAIARA" class="img-fluid h-50 w-50">
 					</div>
+				</div>						
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 order-sm-4 order-md-0 wow fadeInUp align-content-top text-center" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="post">
+					<div class="figure p-4">
+						<img src="images/bancos/pix1.png" alt="AD JAIARA" class="img-fluid h-50 w-50">
+					</div>
+				</div>						
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 order-sm-1 order-md-0 wow fadeInUp align-content-center" data-wow-duration="500ms" data-wow-delay="400ms">
+					<div class="text-center p-4">
+						<h2>C/C 537-2</br>
+							Cód 003 </br>
+							Ag.3257c
+						</h2>
+					</div>				
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 order-sm-3 order-md-0 wow fadeInUp align-content-center" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="text-center p-4">
 					<h2>C/C 7695-3<br/>Ag.3206-9</h2>
-				</div>
-				<div class="col-sm-4 col-xs-12 text-center wow fadeInUp">
-					<div class="media-wrapper">
-						<img src="images/bancos/pix.png" alt="amazing caves coverimage" class="img-responsive">
-					</div>
+				</div>				
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 order-sm-5 order-md-0 wow fadeInUp align-content-center" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="text-center p-4">
 					<h2>Chave: Celular<br/>
-					62993338461</h2>
-				</div>
+						62 99333-8461</h2>
+				</div>				
 			</div>
 		</div> 		<!-- End row -->
 	</div>   	<!-- End container -->
 </section>   <!-- End section -->
-
 
 <!-- Srart Contact Us
 =========================================== -->		
@@ -322,20 +320,26 @@ Start Call To Action
 			<!-- Contact Details -->
 			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>Contato</h3>
-				<p>Crente ipsum gloria aleluia amen, fala Deus, e verdade Jesus!</p>
 				<div class="contact-details">
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-telephone-outline"></i>
-						<span>Telefone/WhatsApp:<br/>+55 62 3099-1259</span>
+						<span> <b> Telefone/WhatsApp:</b> <br/>+55 62 3099-1259  /  62 99333-8461</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
-						<span>Av. 24 de Agosto<br/>
+						<span><b> Endereço: </b> <br/>
+							Av. 24 de Agosto<br/>
 							Qd. 24 Lt. 12<br/>
 							Vila Jaiara<br/>75060-470<br/>
 							Anápolis GO</span>
+					</div>
+					
+					<div class="con-info clearfix">
+						<i class="tf-map-pin"></i>
+						<span><b> E-mail: </b> <br/>
+							..................
 					</div>
 					
 					<!-- <div class="con-info clearfix">
