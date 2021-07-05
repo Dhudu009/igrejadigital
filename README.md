@@ -4,6 +4,8 @@
 #### adjaiara-site
 
 > Raiz do site.
+> É necessária a correção do button-toggler do navbar. E também da seção onde ficam os links para os cultos
+
 
 #### template
 
