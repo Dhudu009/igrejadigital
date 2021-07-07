@@ -4,6 +4,7 @@
 #### adjaiara-site
 
 > Raiz do site.
+'npm i' para instalar todas as depêndencias
 
 
 #### template
