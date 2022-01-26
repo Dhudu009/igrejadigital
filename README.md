@@ -12,3 +12,6 @@
 > 
 > <https://github.com/themefisher/Meghna-Multipurpose-Bootstrap-Template>
 
+### AWS
+http://aws-adjaiara.s3-website-sa-east-1.amazonaws.com
+
