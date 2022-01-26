@@ -11,6 +11,7 @@
     "animate.css": "3.5.2",
     "body-parser": "1.18.2",
     "bootstrap": "5.0.2",
+    "emailjs-com": "^3.2.0",
     "express": "4.16.3",
     "filterizr": "2.2.4",
     "google-maps-react": "^2.0.6",

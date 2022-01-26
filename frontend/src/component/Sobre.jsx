@@ -3,8 +3,8 @@ import Image from '../assets/images/about/about-business-man.jpg'
 // import { Container } from './styles';
 
 function Sobre() {
-  return <div>
-    <section className="parallax-section section-bg overly" id="igreja">
+  return <div id="igreja" >
+    <section className="section-bg overly" >
       <div className="container">
         <div className="row">
           {/* section title */}
@@ -16,11 +16,11 @@ function Sobre() {
         </div> {/* End row */}
       </div> {/* End container */}
 
-      <div className="section about-2 p-0 bg-dark shadow">
-        <div className="container-fluid  wow fadeIn">
+      <div className="section about-2 p-0 bg-dark shadow p-1">
+        <div className="container-fluid wow fadeIn">
           <div className="row">
             <div className="col-md-6 p-0 about-image">
-              <img className="img-fluid" src={Image} alt="" />
+              <img className="img-fluid" src={Image} alt="Nossa Igreja" />
             </div>
             <div className="col-md-6">
               <div className="content-block">

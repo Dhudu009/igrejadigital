@@ -7,7 +7,7 @@ import pix from '../assets/images/bancos/1pix.png'
 
 function Oferta() {
   return <div>
-      <section id="ofertas" className="call-to-action section-xl bg-1 overly" style={{ backgroundImage: `url(${background})` }}>
+      <section id="ofertas" className="call-to-action bg-1 overly" style={{ backgroundImage: `url(${background})` }}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="text-center title wow fadeIn title-igreja" data-wow-duration="1500ms">

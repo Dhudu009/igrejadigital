@@ -14,6 +14,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /* === fonts === */
 
 @font-face {
+  
   font-family: 'themefisher-font';
   src:  url('../fonts/');
   src:  url('../fonts/#iefix') format('embedded-opentype'),
@@ -27,7 +28,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 [class^="tf-"], [class*=" tf-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'themefisher-font' !important;
-  speak: none;
+
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2715,11 +2716,13 @@ a:hover {
   background-color: #353b43;
 }
 .bg-gr {
-  background-color: #40464d;
+  background: linear-gradient(to right, #4b4f53, #282e35);
 }
 
 .bg-dark {
-  background-color: #242930;
+  /* background-color: #242930; */
+  background: linear-gradient(to right, #242930, #282e35);
+
 }
 
 
@@ -2807,10 +2810,11 @@ a:hover {
 
 .section-sm {
   padding: 70px 0;
+  padding-bottom: 100px;
 }
 
 .section-xs {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .btn:focus {
@@ -2934,7 +2938,8 @@ a:hover {
 }
 
 .title {
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .title-igreja {
@@ -3067,14 +3072,20 @@ a:hover {
 }
 
 .logo-title {
-  padding: 12px 0px;
+  padding: 15px 8px;
   margin-left: 8px;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
   font-family: 'Karla', sans-serif;
   color: #fff;
 }
-
+.navbar-toggler{
+  outline: none;
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10%;
+}
 .navbar-brand {
   padding-left:24px;
 }
@@ -3220,14 +3231,37 @@ a:hover {
 }
 
 .hero-video {
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
   position: absolute;
+  left: 50%;
+  min-height: 120%;
+  min-width: 180%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+.twp-video-background {
+  background: #000;
+  position:absolute;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.twp-video {
+  left: 50%;
+  min-height: 120%;
+  min-width: 100%;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  
+}
+
 
 .overlay {
   position: relative;
@@ -4166,6 +4200,7 @@ a:hover {
 /*=================================================================
   Footer section
 ==================================================================*/
+
 .social-icon {
   padding: 60px 0 35px;
 }
@@ -4711,3 +4746,47 @@ blockquote {
     height: 660px;
   }
 }
+
+
+.contact {
+  padding-top: 5vh;
+
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* .simplebar-scrollbar {
+  background: #000;
+  background-clip: padding-box;
+  border-radius: 7px;
+  min-height: 10px;
+  opacity: 1;
+  position: absolute;
+  right: 2px;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+  width: 7px;
+} */
